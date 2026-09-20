@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Azul Pastel | Pastelaria em São Bernardo do Campo, Montanhão (Aloha Food Park)</title>
+  <meta name="description" content="Azul Pastel, pastelaria em São Bernardo do Campo, no Aloha Food Park (Montanhão). Pastéis de 25 cm fritos na hora, salgados e doces. Peça no iFood ou WhatsApp.">
+  <meta name="theme-color" content="#0F2A5C">
+
+  <!-- Ícones -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="apple-touch-icon" href="images/favicon-180.png">
+
+  <!-- Pré-visualização de link (Open Graph).
+       [TROCAR] O og:image precisa de endereço absoluto para o WhatsApp/Facebook mostrarem a imagem.
+       Troque [DOMINIO-DO-SITE] pelo domínio final quando ele existir. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Azul Pastel">
+  <meta property="og:title" content="Azul Pastel | Pastel de 25 cm, salgado e doce">
+  <meta property="og:description" content="Saboroso, sequinho na medida certa. Pastelaria no Aloha Food Park, em São Bernardo do Campo.">
+  <meta property="og:image" content="https://[DOMINIO-DO-SITE]/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fontes: Anton (títulos), Nunito (texto) e Caveat (toques manuscritos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="images/hero-poster.webp" fetchpriority="high">
+
+  <!-- Marca a página como "com JavaScript" antes de desenhar (abas e preços só escondem com JS ligado) -->
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Dados estruturados para o Google (SEO local) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Azul Pastel",
+  "description": "Pastelaria de salgado e doce, com pastéis de 25 cm fritos na hora, no Aloha Food Park.",
+  "image": "images/og-image.jpg",
+  "servesCuisine": "Pastelaria",
+  "telephone": "+55 11 4455-6280",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Nelson Mandela, 474 - Montanhão",
+    "addressLocality": "São Bernardo do Campo",
+    "postalCode": "09784-105",
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Av.%20Nelson%20Mandela%2C%20474%20-%20Montanh%C3%A3o%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP",
+  "sameAs": [
+    "https://www.instagram.com/azulpastel_pastelaria/"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "11:00",
+      "closes": "23:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "11:00",
+      "closes": "22:45"
+    }
+  ]
+}
+  </script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="topo">
+    <div class="wrap header__bar">
+      <a class="brand" href="#topo" aria-label="Azul Pastel, voltar ao topo">
+        <img src="images/logo-branco.png" alt="Azul Pastel" height="40">
+      </a>
+
+      <nav class="nav" id="menu-principal" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#combos">Combos</a></li>
+          <li><a href="#como-aproveitar">Como aproveitar</a></li>
+          <li><a href="#onde-estamos">Onde estamos</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a class="btn btn--primary btn--sm" href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo-sp/azul-pastel-vsp-montanhao" data-link="ifood" target="_blank" rel="noopener noreferrer"><span>Peça agora</span><span class="sr-only"> (abre em nova aba)</span></a>
+        <button class="burger" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+          <span class="burger__bars" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-titulo">
+      <div class="wrap hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title" id="hero-titulo">Saboroso, sequinho na medida certa</h1>
+          <p class="hero__lead">Pastéis de 25 cm bem recheados, salgados e doces, no container azul do Aloha Food Park.</p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary btn--lg" href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo-sp/azul-pastel-vsp-montanhao" data-link="ifood" target="_blank" rel="noopener noreferrer"><span>Pedir no iFood</span><span class="sr-only"> (abre em nova aba)</span></a>
+            <a class="btn btn--ghost btn--lg" href="https://api.whatsapp.com/send?phone=551144556280&text=Ol%C3%A1!%20Gostaria%20de%20pedir%20um%20pastel%20%F0%9F%92%99%F0%9F%A9%B5" data-link="whatsapp" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1.2-1.6-2.2-1.2-.9.8c-1-.4-1.9-1.3-2.3-2.3l.8-.9-1.2-2.2L9 8.5z" fill="currentColor" stroke-width="1"/></svg><span>Chamar no WhatsApp</span><span class="sr-only"> (abre em nova aba)</span></a>
+          </div>
+
+          <ul class="stickers" aria-label="Destaques">
+            <li class="sticker sticker--orange">Salgado e Doce</li>
+            <li class="sticker sticker--white">Frito na hora</li>
+          </ul>
+        </div>
+
+        <div class="hero__media">
+          <video muted autoplay loop playsinline preload="metadata" poster="images/hero-poster.webp" width="720" height="1280" aria-hidden="true">
+            <source src="video/hero-video.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="section section--paper" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="wrap about">
+        <h2 class="h2" id="sobre-titulo">Um pastel de 25 cm, bem recheado</h2>
+        <div class="about__text">
+          <p class="lead">Na Azul Pastel, o pastel tem 25 cm e vem bem recheado. A massa é crocante, sequinha na medida certa.</p>
+          <p>Tem opções salgadas e doces. Todos os pastéis e tubetes são montados e fritos na hora.</p>
+          <p>A gente fica em um container azul no Aloha Food Park, em São Bernardo do Campo. Dá pra comer na mesa, levar pra viagem ou pedir por delivery, no iFood ou no WhatsApp 💙</p>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div class="ruler" role="img" aria-label="Régua marcando 25 centímetros, o tamanho do pastel">
+          <span class="ruler__n ruler__n--first" style="--p:0%">0</span>
+          <span class="ruler__n" style="--p:20%">5</span>
+          <span class="ruler__n" style="--p:40%">10</span>
+          <span class="ruler__n" style="--p:60%">15</span>
+          <span class="ruler__n" style="--p:80%">20</span>
+          <span class="ruler__n ruler__n--last" style="--p:100%">25</span>
+          <span class="ruler__tag">25 cm</span>
+        </div>
+      </div>
+      <!-- Selo opcional, só publique depois de confirmar a nota atual:
+           [CONFIRMAR] <p class="rating">Nota X,X no iFood</p> -->
+    </section>
+
+    <!-- ============ CARDÁPIO ============ -->
+    <section class="section section--blue" id="cardapio" aria-labelledby="cardapio-titulo">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2" id="cardapio-titulo">Cardápio</h2>
+          <p class="section__sub">Salgados, doces e bebidas. Todos os pastéis têm 25 cm.</p>
+        </div>
+
+        <div class="menu-layout">
+          <figure class="feature">
+            <img src="images/foto-pastel-caldo.webp" width="698" height="869" alt="Mão segurando um pastel aberto e bem recheado, na embalagem da Azul Pastel" loading="lazy" decoding="async">
+          </figure>
+
+          <div class="menu" id="menu">
+            <div class="menu__controls">
+              <button class="price-toggle" id="price-toggle" type="button" aria-pressed="false" aria-controls="menu-painel combos">
+                <svg class="icon icon--eye" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><path class="slash" d="M4 4l16 16"/></svg>
+                <span class="price-toggle__label">Mostrar preços</span>
+              </button>
+              <!-- Preços = valores atuais do cardápio da unidade VSP no iFood (o "preço anterior" não é usado) -->
+              <p class="price-note" id="price-note">Valores conforme o cardápio no iFood. Podem mudar.</p>
+            </div>
+
+            <div class="tabs" role="tablist" aria-label="Categorias do cardápio">
+              <button class="tab" role="tab" type="button" id="tab-salgados" aria-controls="panel-salgados" aria-selected="true">Pastéis salgados</button>
+              <button class="tab" role="tab" type="button" id="tab-tubetes" aria-controls="panel-tubetes" aria-selected="false">Tubetes doces</button>
+              <button class="tab" role="tab" type="button" id="tab-bebidas" aria-controls="panel-bebidas" aria-selected="false">Bebidas</button>
+            </div>
+
+            <div class="menu__panels" id="menu-painel">
+              <div class="tabpanel" role="tabpanel" id="panel-salgados" aria-labelledby="tab-salgados" tabindex="0">
+                <h3 class="tabpanel__title">Pastéis salgados</h3>
+          <div class="group">
+            <h4 class="group__title">Carne</h4>
+            <ul class="grid">
+            <li class="item" data-id="carne" data-categoria="salgado">
+              <img class="item__img" src="images/menu/carne.avif" width="600" height="450" alt="Pastel de Carne Tradicional" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Carne Tradicional</p>
+                <p class="item__desc">Aprox. 90 g.</p>
+                <span class="price">R$ 25,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="carne-cat" data-categoria="salgado">
+              <img class="item__img" src="images/menu/carne-cat.avif" width="600" height="450" alt="Pastel de Carne com Catupiry Original" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Carne com Catupiry Original</p>
+                <span class="price">R$ 29,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="carne-ovo" data-categoria="salgado">
+              <img class="item__img" src="images/menu/carne-ovo.avif" width="600" height="450" alt="Pastel de Carne com Ovo" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Carne com Ovo</p>
+                <span class="price">R$ 29,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="carne-queijo" data-categoria="salgado">
+              <img class="item__img" src="images/menu/carne-queijo.avif" width="600" height="450" alt="Pastel de Carne com Queijo Derretido" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Carne com Queijo Derretido</p>
+                <span class="price">R$ 26,90</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+          <div class="group">
+            <h4 class="group__title">Carne seca e costela</h4>
+            <ul class="grid">
+            <li class="item" data-id="cseca-cat" data-categoria="salgado">
+              <img class="item__img" src="images/menu/cseca-cat.avif" width="600" height="450" alt="Pastel de Carne Seca com Catupiry" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Carne Seca com Catupiry</p>
+                <span class="price">R$ 33,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="cseca-queijo" data-categoria="salgado">
+              <img class="item__img" src="images/menu/cseca-queijo.avif" width="600" height="450" alt="Pastel de Carne Seca com Queijo" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Carne Seca com Queijo</p>
+                <span class="price">R$ 33,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="costela" data-categoria="salgado">
+              <img class="item__img" src="images/menu/costela.avif" width="600" height="450" alt="Pastel de Costela" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <span class="item__tag">Novidade</span>
+              <div class="item__body">
+                <p class="item__name">Pastel de Costela</p>
+                <span class="price">R$ 29,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="costela-queijo" data-categoria="salgado">
+              <img class="item__img" src="images/menu/costela-queijo.avif" width="600" height="450" alt="Pastel de Costela com Queijo" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <span class="item__tag">Novidade</span>
+              <div class="item__body">
+                <p class="item__name">Pastel de Costela com Queijo</p>
+                <span class="price">R$ 33,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="costela-cat" data-categoria="salgado">
+              <img class="item__img" src="images/menu/costela-cat.avif" width="600" height="450" alt="Pastel de Costela com Catupiry" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <span class="item__tag">Novidade</span>
+              <div class="item__body">
+                <p class="item__name">Pastel de Costela com Catupiry</p>
+                <span class="price">R$ 33,90</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+          <div class="group">
+            <h4 class="group__title">Frango</h4>
+            <ul class="grid">
+            <li class="item" data-id="frango" data-categoria="salgado">
+              <img class="item__img" src="images/menu/frango.avif" width="600" height="450" alt="Pastel de Frango Tradicional" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Frango Tradicional</p>
+                <p class="item__desc">Com queijo derretido. Aprox. 90 g.</p>
+                <span class="price">R$ 25,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="frango-cat" data-categoria="salgado">
+              <img class="item__img" src="images/menu/frango-cat.avif" width="600" height="450" alt="Pastel de Frango com Catupiry" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Frango com Catupiry</p>
+                <span class="price">R$ 34,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="frango-queijo" data-categoria="salgado">
+              <img class="item__img" src="images/menu/frango-queijo.avif" width="600" height="450" alt="Pastel de Frango com Queijo" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Frango com Queijo</p>
+                <span class="price">R$ 34,90</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+          <div class="group">
+            <h4 class="group__title">Calabresa</h4>
+            <ul class="grid">
+            <li class="item" data-id="calab-cat" data-categoria="salgado">
+              <img class="item__img" src="images/menu/calab-cat.avif" width="600" height="450" alt="Pastel de Calabresa com Catupiry Original" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Calabresa com Catupiry Original</p>
+                <span class="price">R$ 29,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="calab-queijo" data-categoria="salgado">
+              <img class="item__img" src="images/menu/calab-queijo.avif" width="600" height="450" alt="Pastel de Calabresa com Queijo Clássico" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Calabresa com Queijo Clássico</p>
+                <span class="price">R$ 29,90</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+          <div class="group">
+            <h4 class="group__title">Queijos</h4>
+            <ul class="grid">
+            <li class="item" data-id="cat" data-categoria="salgado">
+              <img class="item__img" src="images/menu/cat.avif" width="600" height="450" alt="Pastel de Catupiry Original" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Catupiry Original</p>
+                <span class="price">R$ 26,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="queijo" data-categoria="salgado">
+              <img class="item__img" src="images/menu/queijo.avif" width="600" height="450" alt="Pastel de Queijo Tradicional" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Queijo Tradicional</p>
+                <span class="price">R$ 21,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="cat-queijo" data-categoria="salgado">
+              <img class="item__img" src="images/menu/cat-queijo.avif" width="600" height="450" alt="Pastel de Catupiry Original com Queijo" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Catupiry Original com Queijo</p>
+                <span class="price">R$ 29,90</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+          <div class="group">
+            <h4 class="group__title">Especiais</h4>
+            <ul class="grid">
+            <li class="item" data-id="pizza" data-categoria="salgado">
+              <img class="item__img" src="images/menu/pizza.avif" width="600" height="450" alt="Pastel Sabor Pizza" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel Sabor Pizza</p>
+                <p class="item__desc">Muçarela, tomate, azeitona e orégano.</p>
+                <span class="price">R$ 23,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="bauru" data-categoria="salgado">
+              <img class="item__img" src="images/menu/bauru.avif" width="600" height="450" alt="Pastel de Bauru" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Bauru</p>
+                <p class="item__desc">Presunto, queijo e tomate.</p>
+                <span class="price">R$ 26,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="bauru2" data-categoria="salgado">
+              <img class="item__img" src="images/menu/bauru2.avif" width="600" height="450" alt="Pastel de Bauru 2" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Bauru 2</p>
+                <p class="item__desc">Presunto, Catupiry e tomate.</p>
+                <span class="price">R$ 26,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="atum-queijo" data-categoria="salgado">
+              <img class="item__img" src="images/menu/atum-queijo.avif" width="600" height="450" alt="Pastel de Atum com Queijo" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Pastel de Atum com Queijo</p>
+                <span class="price">R$ 33,90</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+                <p class="photo-note">Fotos ilustrativas</p>
+                <p class="price-disclaimer">Preços base, sem incluir promoções.</p>
+              </div>
+
+              <div class="tabpanel" role="tabpanel" id="panel-tubetes" aria-labelledby="tab-tubetes" tabindex="0">
+                <h3 class="tabpanel__title">Tubetes doces</h3>
+                <ul class="grid">
+            <li class="item" data-id="tb-nutella" data-categoria="tubete">
+              <img class="item__img" src="images/menu/tb-nutella.avif" width="600" height="450" alt="Tubete de Nutella" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Tubete de Nutella</p>
+                <span class="price">R$ 24,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="tb-kitkat" data-categoria="tubete">
+              <img class="item__img" src="images/menu/tb-kitkat.avif" width="600" height="450" alt="Tubete de Kitkat" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Tubete de Kitkat</p>
+                <p class="item__desc">Chocolate Harald e tablete de Kitkat.</p>
+                <span class="price">R$ 20,99</span>
+              </div>
+            </li>
+            <li class="item" data-id="tb-dleite" data-categoria="tubete">
+              <img class="item__img" src="images/menu/tb-dleite.avif" width="600" height="450" alt="Tubete de Doce de Leite" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Tubete de Doce de Leite</p>
+                <span class="price">R$ 20,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="tb-banana-dleite" data-categoria="tubete">
+              <img class="item__img" src="images/menu/tb-banana-dleite.avif" width="600" height="450" alt="Tubete de Banana com Doce de Leite" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Tubete de Banana com Doce de Leite</p>
+                <span class="price">R$ 20,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="tb-romeu" data-categoria="tubete">
+              <img class="item__img" src="images/menu/tb-romeu.avif" width="600" height="450" alt="Tubete Romeu e Julieta" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Tubete Romeu e Julieta</p>
+                <p class="item__desc">Queijo derretido com goiabada.</p>
+                <span class="price">R$ 20,90</span>
+              </div>
+            </li>
+                </ul>
+                <p class="photo-note">Fotos ilustrativas</p>
+                <p class="price-disclaimer">Preços base, sem incluir promoções.</p>
+              </div>
+
+              <div class="tabpanel" role="tabpanel" id="panel-bebidas" aria-labelledby="tab-bebidas" tabindex="0">
+                <h3 class="tabpanel__title">Bebidas</h3>
+          <div class="group">
+            <h4 class="group__title">Caldo de cana</h4>
+            <ul class="grid">
+            <li class="item" data-id="caldo-500" data-categoria="bebida">
+              <img class="item__img" src="images/menu/caldo-500.avif" width="600" height="450" alt="Caldo de Cana 500 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Caldo de Cana 500 ml</p>
+                <span class="price">R$ 15,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="caldo-1l" data-categoria="bebida">
+              <img class="item__img" src="images/menu/caldo-1l.avif" width="600" height="450" alt="Caldo de Cana 1 litro" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Caldo de Cana 1 litro</p>
+                <span class="price">R$ 24,90</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+          <div class="group">
+            <h4 class="group__title">Refrigerantes</h4>
+            <ul class="grid">
+            <li class="item" data-id="coca" data-categoria="bebida">
+              <img class="item__img" src="images/menu/coca.avif" width="600" height="450" alt="Coca-Cola Original lata 350 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Coca-Cola Original lata 350 ml</p>
+                <span class="price">R$ 11,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="coca-zero" data-categoria="bebida">
+              <img class="item__img" src="images/menu/coca-zero.avif" width="600" height="450" alt="Coca-Cola Zero lata 350 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Coca-Cola Zero lata 350 ml</p>
+                <span class="price">R$ 11,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="fanta-laranja" data-categoria="bebida">
+              <img class="item__img" src="images/menu/fanta-laranja.avif" width="600" height="450" alt="Fanta Laranja lata 350 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Fanta Laranja lata 350 ml</p>
+                <span class="price">R$ 11,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="fanta-uva" data-categoria="bebida">
+              <img class="item__img" src="images/menu/fanta-uva.avif" width="600" height="450" alt="Fanta Uva lata 350 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Fanta Uva lata 350 ml</p>
+                <span class="price">R$ 11,90</span>
+              </div>
+            </li>
+            <li class="item" data-id="guarana" data-categoria="bebida">
+              <img class="item__img" src="images/menu/guarana.avif" width="600" height="450" alt="Guaraná Antarctica 350 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Guaraná Antarctica 350 ml</p>
+                <span class="price">R$ 11,90</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+          <div class="group">
+            <h4 class="group__title">Suco e água</h4>
+            <ul class="grid">
+            <li class="item" data-id="suco-maracuja" data-categoria="bebida">
+              <img class="item__img" src="images/menu/suco-maracuja.avif" width="600" height="450" alt="Suco Del Valle Maracujá 290 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Suco Del Valle Maracujá 290 ml</p>
+                <span class="price">R$ 8,50</span>
+              </div>
+            </li>
+            <li class="item" data-id="agua" data-categoria="bebida">
+              <img class="item__img" src="images/menu/agua.avif" width="600" height="450" alt="Água mineral Crystal 500 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Água mineral Crystal 500 ml</p>
+                <span class="price">R$ 5,00</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+          <div class="group group--beer">
+            <h4 class="group__title">Cervejas</h4>
+            <ul class="grid grid--beer">
+            <li class="item" data-id="budweiser" data-categoria="bebida">
+              <img class="item__img" src="images/menu/budweiser.avif" width="600" height="450" alt="Cerveja Budweiser Long Neck 330 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Cerveja Budweiser Long Neck 330 ml</p>
+                <p class="item__desc">Só para maiores de 18 anos.</p>
+                <span class="price">R$ 14,50</span>
+              </div>
+            </li>
+            <li class="item" data-id="heineken" data-categoria="bebida">
+              <img class="item__img" src="images/menu/heineken.avif" width="600" height="450" alt="Cerveja Heineken Long Neck 330 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+              <div class="item__body">
+                <p class="item__name">Cerveja Heineken Long Neck 330 ml</p>
+                <p class="item__desc">Só para maiores de 18 anos.</p>
+                <span class="price">R$ 16,90</span>
+              </div>
+            </li>
+            </ul>
+          </div>
+                <p class="photo-note">Fotos ilustrativas</p>
+                <p class="price-disclaimer">Preços base, sem incluir promoções.</p>
+              </div>
+            </div>
+
+            <div class="menu__cta">
+              <a class="btn btn--primary btn--lg" href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo-sp/azul-pastel-vsp-montanhao" data-link="ifood" target="_blank" rel="noopener noreferrer"><span>Ver cardápio completo e pedir no iFood</span><span class="sr-only"> (abre em nova aba)</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMBOS ============ -->
+    <section class="section section--navy" id="combos" aria-labelledby="combos-titulo">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2" id="combos-titulo">Combos</h2>
+          <p class="section__sub">Pastel, tubete e bebida no mesmo pedido.</p>
+        </div>
+        <ul class="combos">
+          <li class="combo">
+            <img class="combo__img" src="images/menu/combo-1.avif" width="600" height="450" alt="Combo Pastel + Tubete de Nutella + Coca-Cola 350 ml" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+            <div class="combo__body">
+              <h3 class="combo__name">Combo Pastel + Tubete de Nutella + Coca-Cola 350 ml</h3>
+              <p class="combo__desc">1 pastel salgado à escolha.</p>
+              <span class="price combo__price">R$ 64,90</span>
+              <a class="btn btn--primary btn--sm" href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo-sp/azul-pastel-vsp-montanhao" data-link="ifood" target="_blank" rel="noopener noreferrer"><span>Pedir no iFood</span><span class="sr-only"> (abre em nova aba)</span></a>
+            </div>
+          </li>
+          <li class="combo">
+            <img class="combo__img" src="images/menu/combo-2.avif" width="600" height="450" alt="Combo 3 Pastéis + 2 Tubetes de Nutella + 1 litro de Caldo de Cana" loading="lazy" decoding="async" onerror="window.azulImgFallback&amp;&amp;window.azulImgFallback(this)">
+            <div class="combo__body">
+              <h3 class="combo__name">Combo 3 Pastéis + 2 Tubetes de Nutella + 1 litro de Caldo de Cana</h3>
+              <p class="combo__desc">3 pastéis salgados à escolha.</p>
+              <span class="price combo__price">R$ 129,90</span>
+              <a class="btn btn--primary btn--sm" href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo-sp/azul-pastel-vsp-montanhao" data-link="ifood" target="_blank" rel="noopener noreferrer"><span>Pedir no iFood</span><span class="sr-only"> (abre em nova aba)</span></a>
+            </div>
+          </li>
+        </ul>
+        <p class="photo-note photo-note--dark">Fotos ilustrativas</p>
+        <p class="price-disclaimer price-disclaimer--dark">Preços base, sem incluir promoções.</p>
+      </div>
+    </section>
+
+    <!-- ============ COMO APROVEITAR ============ -->
+    <section class="section section--blue" id="como-aproveitar" aria-labelledby="aproveitar-titulo">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2" id="aproveitar-titulo">Como aproveitar</h2>
+          <p class="section__sub">Azul de fome? Escolha o jeito que for melhor pra você.</p>
+        </div>
+        <ul class="ways">
+          <li class="way">
+            <span class="way__icon"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3v6a2 2 0 0 0 4 0V3M8 11v10"/><path d="M17 21V3c-2 2-3 5-3 8h3"/></svg></span>
+            <h3 class="way__title">Comer no local</h3>
+            <p>Venha ao container azul, no Aloha Food Park, e coma na mesa.</p>
+            <a class="btn btn--primary btn--sm" href="https://www.google.com/maps/search/?api=1&query=Av.%20Nelson%20Mandela%2C%20474%20-%20Montanh%C3%A3o%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP" data-link="mapa" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Como chegar</span><span class="sr-only"> (abre em nova aba)</span></a>
+          </li>
+          <li class="way">
+            <span class="way__icon"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8h12l1 12H5L6 8z"/><path d="M9 8V7a3 3 0 0 1 6 0v1"/></svg></span>
+            <h3 class="way__title">Levar (viagem)</h3>
+            <p>Peça pelo WhatsApp e retire o seu pedido na loja.</p>
+            <a class="btn btn--primary btn--sm" href="https://api.whatsapp.com/send?phone=551144556280&text=Ol%C3%A1!%20Gostaria%20de%20pedir%20um%20pastel%20%F0%9F%92%99%F0%9F%A9%B5" data-link="whatsapp" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1.2-1.6-2.2-1.2-.9.8c-1-.4-1.9-1.3-2.3-2.3l.8-.9-1.2-2.2L9 8.5z" fill="currentColor" stroke-width="1"/></svg><span>Chamar no WhatsApp</span><span class="sr-only"> (abre em nova aba)</span></a>
+          </li>
+          <li class="way">
+            <span class="way__icon"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M6 17h5l3-7h3l1 7"/><path d="M14 10l-1-3h-3"/></svg></span>
+            <h3 class="way__title">Delivery</h3>
+            <p>Peça pelo iFood ou pelo WhatsApp e receba onde estiver.</p>
+            <a class="btn btn--primary btn--sm" href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo-sp/azul-pastel-vsp-montanhao" data-link="ifood" target="_blank" rel="noopener noreferrer"><span>Pedir no iFood</span><span class="sr-only"> (abre em nova aba)</span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ GALERIA ============ -->
+    <section class="section section--navy" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2" id="galeria-titulo">Galeria</h2>
+          <p class="section__sub">Mais fotos e novidades no nosso Instagram.</p>
+        </div>
+        <ul class="gallery">
+          <li><img src="images/galeria-1.webp" width="690" height="865" alt="Arte da Azul Pastel com um pastel de atum na mão" loading="lazy" decoding="async"></li>
+          <li><img src="images/galeria-2.webp" width="690" height="865" alt="Arte da Azul Pastel com um tubete de doce na mão" loading="lazy" decoding="async"></li>
+          <li><img src="images/galeria-3.webp" width="690" height="865" alt="Pastel de queijo aberto ao lado de um copo com gelo sendo servido" loading="lazy" decoding="async"></li>
+        </ul>
+        <div class="gallery__cta">
+          <a class="btn btn--primary btn--lg" href="https://www.instagram.com/azulpastel_pastelaria/" data-link="instagram" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg><span>Siga no Instagram</span><span class="sr-only"> (abre em nova aba)</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ONDE ESTAMOS ============ -->
+    <section class="section section--paper" id="onde-estamos" aria-labelledby="onde-titulo">
+      <div class="wrap where">
+        <div class="where__info">
+          <h2 class="h2" id="onde-titulo">Onde estamos</h2>
+          <address class="address">
+            <strong>Aloha Food Park</strong><br>
+            Av. Nelson Mandela, 474<br>
+            Montanhão<br>
+            São Bernardo do Campo - SP<br>
+            CEP 09784-105
+          </address>
+          <p class="phone"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span class="phone__num">(11) 4455-6280</span></p>
+
+          <p class="open-status" id="open-status" hidden></p>
+          <p class="holiday-note">Confira feriados no <a href="https://www.instagram.com/azulpastel_pastelaria/" data-link="instagram" target="_blank" rel="noopener noreferrer">Instagram<span class="sr-only"> (abre em nova aba)</span></a>.</p>
+
+          <table class="hours">
+            <caption class="sr-only">Horário de funcionamento</caption>
+            <tbody>
+            <tr data-dow="1"><th scope="row">Segunda</th><td>11:00 às 23:00</td></tr>
+            <tr data-dow="2"><th scope="row">Terça</th><td>Fechado</td></tr>
+            <tr data-dow="3"><th scope="row">Quarta</th><td>11:00 às 22:45</td></tr>
+            <tr data-dow="4"><th scope="row">Quinta</th><td>11:00 às 22:45</td></tr>
+            <tr data-dow="5"><th scope="row">Sexta</th><td>11:00 às 22:45</td></tr>
+            <tr data-dow="6"><th scope="row">Sábado</th><td>11:00 às 22:45</td></tr>
+            <tr data-dow="0"><th scope="row">Domingo</th><td>11:00 às 22:45</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="where__map">
+          <iframe title="Mapa: Azul Pastel no Aloha Food Park" src="https://www.google.com/maps?q=Av.%20Nelson%20Mandela%2C%20474%20-%20Montanh%C3%A3o%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP&output=embed" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <a class="btn btn--dark btn--sm" href="https://www.google.com/maps/search/?api=1&query=Av.%20Nelson%20Mandela%2C%20474%20-%20Montanh%C3%A3o%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP" data-link="mapa" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Abrir no Google Maps</span><span class="sr-only"> (abre em nova aba)</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <img src="images/logo-branco.png" alt="Azul Pastel" height="44">
+        <p>Saboroso, sequinho na medida certa.</p>
+      </div>
+
+      <ul class="footer__links" aria-label="Contato e canais">
+        <li><a class="footer__link" href="https://www.ifood.com.br/delivery/sao-bernardo-do-campo-sp/azul-pastel-vsp-montanhao" data-link="ifood" target="_blank" rel="noopener noreferrer"><span>iFood</span><span class="sr-only"> (abre em nova aba)</span></a></li>
+        <li><a class="footer__link" href="https://api.whatsapp.com/send?phone=551144556280&text=Ol%C3%A1!%20Gostaria%20de%20pedir%20um%20pastel%20%F0%9F%92%99%F0%9F%A9%B5" data-link="whatsapp" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1.2-1.6-2.2-1.2-.9.8c-1-.4-1.9-1.3-2.3-2.3l.8-.9-1.2-2.2L9 8.5z" fill="currentColor" stroke-width="1"/></svg><span>WhatsApp</span><span class="sr-only"> (abre em nova aba)</span></a></li>
+        <li><a class="footer__link" href="https://www.instagram.com/azulpastel_pastelaria/" data-link="instagram" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg><span>Instagram</span><span class="sr-only"> (abre em nova aba)</span></a></li>
+        <li><a class="footer__link" href="https://www.google.com/maps/search/?api=1&query=Av.%20Nelson%20Mandela%2C%20474%20-%20Montanh%C3%A3o%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP" data-link="mapa" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Mapa</span><span class="sr-only"> (abre em nova aba)</span></a></li>
+        <li><span class="footer__link footer__link--static"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span class="footer__num">(11) 4455-6280</span></span></li>
+      </ul>
+
+      <div class="footer__legal">
+        <p>&copy; <span id="ano">2026</span> Azul Pastel. CNPJ 55.631.984/0001-09</p>
+        <p>Venda de bebidas alcoólicas proibida para menores de 18 anos. Beba com moderação.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp (só no mobile) -->
+  <a class="wa-float" href="https://api.whatsapp.com/send?phone=551144556280&text=Ol%C3%A1!%20Gostaria%20de%20pedir%20um%20pastel%20%F0%9F%92%99%F0%9F%A9%B5" data-link="whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chamar no WhatsApp (abre em nova aba)">
+    <svg class="icon" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1.2-1.6-2.2-1.2-.9.8c-1-.4-1.9-1.3-2.3-2.3l.8-.9-1.2-2.2L9 8.5z" fill="currentColor" stroke-width="1"/></svg>
+  </a>
+</body>
+</html>
